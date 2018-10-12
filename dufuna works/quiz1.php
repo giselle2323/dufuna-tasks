@@ -15,9 +15,7 @@ echo"<br>";
 print("I am from kogi state.");
 echo"<br>";
 print("My best food is fried rice");
-for ($x = 0; $x <= 10; $x++) {
-    echo "The number is: $x <br>";
-} 
+
 ?>
 </body>
 </html>

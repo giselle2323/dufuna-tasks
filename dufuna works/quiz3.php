@@ -22,12 +22,7 @@ elseif ($s >= "30" and $s < "40" ) {
 elseif ($s >= "40") {
 	# code...
 	echo "<h1> Am i in the Sahara Desert?! </h1>";
-}
-$x = 1;
 
-while($x <= 5) {
-    echo "The number is: $x <br>";
-    $x++;
 } 
 
 ?>

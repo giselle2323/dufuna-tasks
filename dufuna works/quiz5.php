@@ -5,15 +5,14 @@
 </head>
 <body>
 <?php
-$Firstname = array("Tayo" => "skipping", "Richard" => "cycling", "Chinazo" => "running"); //Associative arrays.
+$Firstname = array("Tayo", "Richard", "Chinazo");
+$Hobby = array("Skipping", "Gambling", "Running" );
 
-foreach ($Firstname as $t => $t_value) {
-	# code...
-	echo "My name is " . $t .", I love " .$t_value;
-	echo "<br>";
-}
-
-
+echo "My name is " . $Firstname[0] . "." ." I love " . $Hobby[0] . ".";
+echo "<br>";
+echo "My name is " . $Firstname[1] . "." . " I love "  . $Hobby[1] . ".";
+echo "<br>";
+echo ("My name is " . $Firstname[2] . "." . " I love "  . $Hobby[2] . "." );
 ?> 
 </body>
 </html>
