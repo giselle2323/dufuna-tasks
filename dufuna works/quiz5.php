@@ -7,12 +7,12 @@
 <?php
 $Firstname = array("Tayo", "Richard", "Chinazo");
 $Hobby = array("Skipping", "Gambling", "Running" );
-
-echo "My name is " . $Firstname[0] . "." ." I love " . $Hobby[0] . ".";
-echo "<br>";
-echo "My name is " . $Firstname[1] . "." . " I love "  . $Hobby[1] . ".";
-echo "<br>";
-echo ("My name is " . $Firstname[2] . "." . " I love "  . $Hobby[2] . "." );
+for ($i = 0; $i< count ($Firstname); $i++){
+	
+ echo " My name is " . $Firstname[$i]  . " I love " . 
+    $Hobby[$i];  
+    echo "<br>";
+}
 ?> 
 </body>
 </html>
