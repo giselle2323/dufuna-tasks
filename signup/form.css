@@ -53,6 +53,9 @@ background-size: 20px 20px;
 	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
 	
 }
+input#name:focus{
+	background-image: none;
+}
 input#email{
 	background-image: url(images/email.png) ;
 background-size: 20px 20px;
@@ -69,6 +72,9 @@ background-size: 20px 20px;
     border-radius: 5px;
 	-webkit-border-radius: 5px;	/* for I.E */
 	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
+}
+input#email:focus{
+	background-image: none;
 }
 input#password{
 	background-image: url(images/password.png) ;
@@ -88,6 +94,9 @@ background-size: 20px 20px;
 	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
 	
 }
+input#password:focus{
+	background-image: none;
+}
 input#telephone{
 	background-image: url(images/telephone.png);
 background-size: 20px 20px;
@@ -104,6 +113,9 @@ background-size: 20px 20px;
     border-radius: 5px;
 	-webkit-border-radius: 5px;	/* for I.E */
 	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
+}
+input#telephone:focus{
+	background-image: none;
 }
 
 input#country{
@@ -122,6 +134,9 @@ background-size: 20px 20px;
     border-radius: 5px;
 	-webkit-border-radius: 5px;	/* for I.E */
 	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
+}
+input#country:focus{
+	background-image: none;
 }
 
 input[type=submit] {
