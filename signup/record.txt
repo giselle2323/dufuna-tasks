@@ -1,4 +1,8 @@
-yakubu aminat jumoke,yakubuaminat94@gmail.com
-yaks gulid,yakubuaminat94@gmail.com
-aminat,yakubu,yakubuaminat94@gmail.com,06111996,,08101105900,female,nigeria
-aminat,gbenro,yakubuaminat94@gmail.com,06111996,,5378577848,male,nigeria
+
+zainab,yakubu,yakubuaminat94@gmail.com,1234,1234,,male,nigeria
+Aminat,yakubu,yakubuaminat94@gmail.com,1234,1234,9898765,male,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+SULE,adebiyi,yakubuaminat94@gmail.com,009,009,78789065,male,kenya
