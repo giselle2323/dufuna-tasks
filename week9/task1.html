@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MY form example</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="form.css">
-</head>
-<body>
-	<div id="myform">
-	<h1>
-		PLEASE SIGN UP HERE
-	</h1>
-<form method="POST" action="signup.php">
-	<fieldset>
-		<legend> Sign Up:</legend>
-		<label for="firstname">Firstname:
-			<input type="text" name="Firstname" id="name">
-		</label>
-		<br>
-		<label for="lastname" >Lastname:
-			<input type="text" name="Lastname" id="name">
-		</label>
-		<br>
-		<label for="email">Email:
-			<input type="email" name="email" id="email" >
-		</label>
-		<br>
-		<label for="password">Password:
-			<input type="password" name="password" id="password">
-		</label>
-		<br>
-		<label for="confirm password"> Confirm Password:
-		<input type="password" name="confirm password" id="password">
-		</label>
-		<br>
-		<label for="phone number"> Phone Number:
-			 <input type="number" name="quantity" id="telephone">
-		</label>
-		<br>
-		<label for="gender"> Gender:
-			<input type="radio" name="gender" value="male" id="gender" checked> Male
-  <input type="radio" name="gender" value="female" id="gender"> Female
-		</label>
-		<br>
-		<label for="country"> Country:
-		<input type="text" name="country" id="country">	
-		</label>
-		<br>
-		<input type="submit" name="submit" value="submit">
-	</fieldset>
-	
-</form>
-</div>
-</body>
+    <head>
+        <title>MY form example</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+	    <div id="myform">
+	        <h1>  
+		      PLEASE SIGN UP HERE
+	        </h1>
+           <form method="POST" action="process.php">
+	            <fieldset>
+		            <legend> Sign Up:</legend>
+		              <label for="firstname">firstname:
+			          <input type="text" name="firstname" id="name">
+		            </label>
+		            <br>
+		            <label for="lastname" >lastname:
+			          <input type="text" name="lastname" id="name">
+		           </label>
+		           <br>
+		           <label for="email">Email:
+			          <input type="email" name="email" id="email" >
+		            </label>
+		            <br>
+		            <label for="password">Password:
+			          <input type="password" name="password" id="password">
+		            </label>
+		            <br>
+		            <label for="confirmpassword"> Confirm Password:
+		              <input type="password" name="confirmpassword" id="password">
+		            </label>
+		            <br>
+		            <label for="phone number"> Phone Number:
+			          <input type="number" name="telephone" id="telephone">
+		            </label>
+		            <br>
+		            <label > Gender: </label>
+		            <label for="male">
+			          <input type="radio" name="gender" value="male" id="male" checked> Male 
+			        </label>
+                    <label for="female">
+  	                 <input type="radio" name="gender" value="female" id="female"> Female 
+  	                </label>
+		            <br>
+		            <label for="country"> Country:
+		                <select name="country" id="country">
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Others">Others</option>
+                        </select>	
+		            </label>
+		            <br>
+		            <input type="submit" name="submit" value="submit">
+	            </fieldset>
+	 
+            </form>
+        </div>
+    </body>
 </html>
