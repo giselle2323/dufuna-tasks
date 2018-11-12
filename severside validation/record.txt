@@ -1,0 +1,9 @@
+
+zainab,yakubu,yakubuaminat94@gmail.com,1234,1234,,male,nigeria
+Aminat,yakubu,yakubuaminat94@gmail.com,1234,1234,9898765,male,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+Aminat,Yakubu,yakubuaminat94@gmail.com,06111996,06111996,0987654,female,nigeria
+SULE,adebiyi,yakubuaminat94@gmail.com,009,009,78789065,male,kenya
+yakubu,jumoke,yakubuaminat@gmail.com,,,08101105900,,South Africa
