@@ -39,7 +39,17 @@
        alert( "password should be exactly 11 characters.");              
         confirmpassword.focus();               
 	       return false;  
-	   }  
+	   }
+  function password() {
+    var passoword=document.getElementById("password").value;
+    var confirmpassword=document.getElementById("password").value;
+    if (password!= confirmpassword){
+      alert("Passwords do not match");
+      return false;
+    }
+    return true;
+    }
+
   var telephone = document.signupForm.telephone           
   if (telehone.value == "" || isNaN(telephone.value)) {  
   	 alert("Phone number should be numeric.");               
