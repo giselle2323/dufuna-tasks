@@ -24,14 +24,14 @@
   {    
     $message .= '<p class="error">lastname must be between 3 and 20 characters</p>'; 
   }
-  if ($_POST["password"]===$_POST["confirm_password"])
+  if ($_POST["password"]!=$_POST["confirm_password"])
   {
-    //success!
+      $message .='<p class="error">Password does not match </p>';
   }
-  else
-  {
-    //failed:(
-  }
+  
+
+   
+
   if (!is_numeric($telephone)) 
   {     
     $message .= '<p class="error">Phone number should be numeric</p>'; 
@@ -85,7 +85,7 @@
                       <input type="password" name="confirmpassword" id="password">
                     </label>
                     <br>
-                    <label for="phone number"> Phone Number:
+                    <label for="phonenumber"> Phone Number:
                       <input type="text" name="telephone" id="telephone">
                     </label>
                     <br>
