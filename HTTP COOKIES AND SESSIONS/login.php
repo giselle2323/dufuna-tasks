@@ -13,8 +13,8 @@
            <form method="POST" name="signinForm" action="database.php">
 	            <fieldset>
 		            <legend> login:</legend>
-		            <label for="username" >username:
-			          <input type="text" name="user_name" id="user_name">
+		            <label for="email" >Email:
+			          <input type="email" name="email" id="email">
 		           </label>
 		           <br>
 		           <label for="password">Password:

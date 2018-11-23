@@ -34,8 +34,8 @@ input[type=text] {
     color: black;
 }
 
-input#user_name{
-	background-image: url(images/name.png) ;
+input#email{
+	background-image: url(images/email.png) ;
     background-size: 20px 20px;
 	background-repeat: no-repeat;
 	background-position: 6px;
@@ -52,7 +52,7 @@ input#user_name{
 	-moz-border-radius: 5px; 	/* for Mozilla web browser*/
 }
 
-input#user_name:focus{
+input#email:focus{
 	background-image: none;
 }
 input#password{

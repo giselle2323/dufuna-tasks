@@ -1,4 +1,5 @@
 <?php 
+$message = "";
 if(isset($_POST['submit'])){ 
         $serverName = "localhost";   
         $db_name = "registration";   
@@ -9,10 +10,10 @@ if(isset($_POST['submit'])){
         mysql_connect("$serverName", "$username", "$password")or die("cannot connect");
         mysql_select_db("$db_name")or die("cannot select database");
         //
-        $user_name= ($_POST['user_name']);
+        $email= ($_POST['email']);
         $password= ($_POST['password']);
         $sql = mysql_query("SELECT * FROM users  
-        WHERE user_name='$user_name' AND 
+        WHERE email='$email' AND 
         password='$password' 
         LIMIT 1"); 
          if(mysql_num_rows($sql) == 1){ 
@@ -21,23 +22,12 @@ if(isset($_POST['submit'])){
         $_SESSION['user_name'] = $row['user_name']; 
         $_SESSION['firstname'] = $row['firstname']; 
         $_SESSION['lastname'] = $row['lastname']; 
-        $_SESSION['email'] = $_row['email'];
-        $_SESSION['telephone'] =$_row['telephone'];
-        $_SESSION['gender'] =$_row['gender'];
-        $_SESSION['country'] =$_row['country'];
+        $_SESSION['email'] = $row['email'];
+        $_SESSION['telephone'] =$row['telephone'];
+        $_SESSION['gender'] =$row['gender'];
+        $_SESSION['country'] =$row['country'];
         $_SESSION['logged'] = TRUE; 
-        // Using cookies
-        /*
-        $cookie_firstname = $row['user_name'];
-        $cookie_firstname =$row['firstname'];
-        $cookie_email =$row['email'];
         
-
-        //
-        setcookie("user_name", $cookie_firstname, time() + (86400 + 30), "/");
-        setcookie("firstname", $cookie_firstname, time() + (86400 + 30), "/");
-        setcookie("lastname", $cookie_lastname, time() + (86400 + 30), "/");
-        setcookie("email", $cookie_email, time() + (86400 + 30), "/"); */
         header("Location: welcome.php"); // Modify to go to the page you would like 
         exit; 
     }
@@ -47,7 +37,7 @@ if(isset($_POST['submit'])){
     } 
 }
 else{    //If the form button wasn't submitted go to the index page, or login page 
-    header("Location: login.php");     
+    $message = "please enter your login credentials";     
     exit; 
 } 
 ?> 
